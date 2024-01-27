@@ -2,7 +2,7 @@
 	width:200px;
 	row-gap: 50px;
 	 display: grid;
-  grid-template-columns: auto auto ;
+  grid-template-columns:repeat(2,1fr) ;
 	place-items:center;
 }
 .item{
